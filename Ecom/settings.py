@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 from pathlib import Path
 import dj_database_url
-
 from decouple import config,Csv
 
 from django.core.management import execute_from_command_line
